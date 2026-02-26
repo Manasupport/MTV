@@ -157,13 +157,13 @@ export default function Header({ language, setLanguage }: HeaderProps) {
             <span className="absolute bottom-1 left-2 right-2 h-0.5 bg-slate-900 scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
           </a>
 
-          <a
-            href="#"
+          <Link
+            to="/about"
             className="group flex items-center gap-1.5 py-2 px-2 text-slate-600 hover:text-slate-900 transition-colors relative"
           >
             {t.about}
             <span className="absolute bottom-1 left-2 right-2 h-0.5 bg-slate-900 scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
-          </a>
+          </Link>
         </nav>
 
         {/* RIGHT: LANGUAGE + CTA */}
@@ -222,9 +222,9 @@ export default function Header({ language, setLanguage }: HeaderProps) {
             <a href="#" className="block px-4 py-2 text-sm font-medium text-slate-900 hover:bg-slate-100 rounded transition-colors">
               {t.letter}
             </a>
-            <a href="#" className="block px-4 py-2 text-sm font-medium text-slate-900 hover:bg-slate-100 rounded transition-colors">
+            <Link to="/about" className="block px-4 py-2 text-sm font-medium text-slate-900 hover:bg-slate-100 rounded transition-colors">
               {t.about}
-            </a>
+            </Link>
             <div className="border-t border-slate-200/30 pt-3 mt-3 flex items-center gap-2 px-2">
               <button
                 onClick={() => setLanguage('fr')}

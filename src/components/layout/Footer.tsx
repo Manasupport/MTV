@@ -29,6 +29,7 @@ export default function Footer({ language: _language }: FooterProps) {
             <ul className="space-y-3 text-sm font-light text-slate-600">
               <li><Link to="/" className="hover:text-slate-900 transition-colors">Home</Link></li>
               <li><Link to="/articles" className="hover:text-slate-900 transition-colors">Articles</Link></li>
+              <li><Link to="/about" className="hover:text-slate-900 transition-colors">About</Link></li>
               <li><a href="#" className="hover:text-slate-900 transition-colors">Letter</a></li>
             </ul>
           </div>
