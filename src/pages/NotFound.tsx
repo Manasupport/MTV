@@ -1,23 +1,29 @@
 import { Link } from 'react-router-dom'
 import Container from '../components/layout/Container'
+import { Language } from '../lib/i18n'
 
-export default function NotFound() {
+interface NotFoundProps {
+  language: Language
+}
+
+export default function NotFound({ language: _language }: NotFoundProps) {
   return (
-    <div className="py-32">
+    <div className="bg-[#fafaf8] min-h-[calc(100vh-64px)] flex items-center">
       <Container>
         <div className="text-center">
-          <h1 className="text-8xl font-black text-slate-900 mb-4">404</h1>
-          <p className="text-2xl font-bold text-slate-600 mb-6">
-            Page non trouvée
+          <h1 className="serif-headline text-9xl text-slate-900 mb-6">404</h1>
+          <p className="text-2xl text-slate-600 mb-6 font-light">
+            Page not found
           </p>
-          <p className="text-slate-500 mb-8 text-lg max-w-md mx-auto">
-            Désolé, la page que vous recherchez n'existe pas ou a été déplacée.
+          <p className="text-lg text-slate-500 font-light mb-10 max-w-md mx-auto">
+            Sorry, the page you're looking for doesn't exist or has been moved.
           </p>
           <Link
             to="/"
-            className="bg-blue-600 text-white px-8 py-3 rounded-full font-bold inline-block hover:bg-blue-700 transition-colors"
+            className="inline-flex items-center gap-3 px-8 py-3 bg-slate-900 text-white font-medium text-sm uppercase tracking-wide hover:bg-slate-800 transition-colors"
           >
-            Retour à l'accueil
+            Back to home
+            <span>→</span>
           </Link>
         </div>
       </Container>
