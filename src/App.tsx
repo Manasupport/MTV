@@ -4,6 +4,7 @@ import AppShell from './components/layout/AppShell'
 import Home from './pages/Home'
 import Articles from './pages/Articles'
 import About from './pages/About'
+import Letter from './pages/Letter'
 import NotFound from './pages/NotFound'
 import { Language } from './lib/i18n'
 
@@ -24,6 +25,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home language={language} />} />
           <Route path="/articles" element={<Articles language={language} />} />
+          <Route path="/letter" element={<Letter language={language} />} />
           <Route path="/about" element={<About language={language} />} />
           <Route path="/*" element={<NotFound language={language} />} />
         </Routes>

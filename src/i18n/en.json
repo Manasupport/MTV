@@ -77,6 +77,42 @@
       "all": "All"
     }
   },
+  "letterPage": {
+    "kicker": "Business Letter",
+    "title": "Exclusive analysis for decision makers.",
+    "subtitle": "Subscribe for just €10/month and access exclusive analysis on health, technology, and the Israeli economy. Expert content.",
+    "ctaPrimary": "Subscribe now",
+    "ctaSecondary": "View a sample",
+    "priceBadge": "Premium",
+    "priceLabel": "Monthly access",
+    "priceValue": "€10",
+    "priceUnit": "/month",
+    "billingNote": "Billed monthly. Cancel anytime.",
+    "pricePoints": [
+      "Exclusive, in-depth analysis",
+      "Weekly intelligence in a concise format",
+      "Access to trends across health, tech, and the economy"
+    ],
+    "benefitsTitle": "What you get",
+    "benefitsSubtitle": "A clear, actionable digest to track the Israeli ecosystem.",
+    "benefits": [
+      {
+        "title": "Exclusive insights",
+        "body": "Strategic dossiers on Israeli health, biotech, and medtech innovation."
+      },
+      {
+        "title": "Early signals",
+        "body": "Spot the innovations and market moves before others do."
+      },
+      {
+        "title": "Decision clarity",
+        "body": "Actionable summaries for investors, executives, and partners."
+      }
+    ],
+    "finalTitle": "Ready to move faster?",
+    "finalBody": "Join the Business Letter and receive analysis that saves time and delivers clarity.",
+    "finalCta": "Start subscription"
+  },
   "notFound": {
     "title": "Page not found",
     "body": "Sorry, the page you're looking for doesn't exist or has been moved.",

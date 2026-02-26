@@ -77,6 +77,42 @@
       "all": "Tous"
     }
   },
+  "letterPage": {
+    "kicker": "Business Letter",
+    "title": "Des analyses exclusives pour les décideurs.",
+    "subtitle": "Abonnez-vous pour seulement 10€/mois et accédez à des analyses exclusives sur la santé, la tech et l'économie israélienne. Contenu expert.",
+    "ctaPrimary": "S'abonner maintenant",
+    "ctaSecondary": "Voir un extrait",
+    "priceBadge": "Premium",
+    "priceLabel": "Accès mensuel",
+    "priceValue": "10€",
+    "priceUnit": "/mois",
+    "billingNote": "Facturation mensuelle. Annulation à tout moment.",
+    "pricePoints": [
+      "Analyses approfondies et exclusives",
+      "Veille hebdomadaire synthétisée",
+      "Accès aux tendances santé, tech et économie"
+    ],
+    "benefitsTitle": "Ce que vous recevez",
+    "benefitsSubtitle": "Un condensé expert, clair et actionnable pour suivre l'écosystème israélien.",
+    "benefits": [
+      {
+        "title": "Analyses exclusives",
+        "body": "Des dossiers stratégiques sur la santé, la biotech et la medtech israélienne."
+      },
+      {
+        "title": "Signal faible",
+        "body": "Repérez avant les autres les innovations et mouvements de marché." 
+      },
+      {
+        "title": "Décisions éclairées",
+        "body": "Des synthèses actionnables pour investisseurs, dirigeants et partenaires."
+      }
+    ],
+    "finalTitle": "Prêt à passer à l'action ?",
+    "finalBody": "Rejoignez la Business Letter et recevez des analyses qui font gagner du temps et de la clarté.",
+    "finalCta": "Commencer l'abonnement"
+  },
   "notFound": {
     "title": "Page introuvable",
     "body": "Désolé, la page que vous cherchez n'existe pas ou a été déplacée.",

@@ -123,13 +123,13 @@ export default function Header({ language, setLanguage }: HeaderProps) {
             <span className="absolute bottom-1 left-2 right-2 h-0.5 bg-slate-900 scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
           </Link>
 
-          <a
-            href="#"
+          <Link
+            to="/letter"
             className="group flex items-center gap-1.5 py-2 px-2 text-slate-600 hover:text-slate-900 transition-colors relative"
           >
             {t.nav.letter}
             <span className="absolute bottom-1 left-2 right-2 h-0.5 bg-slate-900 scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
-          </a>
+          </Link>
 
           <Link
             to="/about"
@@ -193,9 +193,9 @@ export default function Header({ language, setLanguage }: HeaderProps) {
             <Link to="/articles" className="block px-4 py-2 text-sm font-medium text-slate-900 hover:bg-slate-100 rounded transition-colors">
               {t.nav.articles}
             </Link>
-            <a href="#" className="block px-4 py-2 text-sm font-medium text-slate-900 hover:bg-slate-100 rounded transition-colors">
+            <Link to="/letter" className="block px-4 py-2 text-sm font-medium text-slate-900 hover:bg-slate-100 rounded transition-colors">
               {t.nav.letter}
-            </a>
+            </Link>
             <Link to="/about" className="block px-4 py-2 text-sm font-medium text-slate-900 hover:bg-slate-100 rounded transition-colors">
               {t.nav.about}
             </Link>

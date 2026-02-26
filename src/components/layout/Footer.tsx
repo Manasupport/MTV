@@ -31,7 +31,7 @@ export default function Footer({ language }: FooterProps) {
               <li><Link to="/" className="hover:text-slate-900 transition-colors">{t.footer.home}</Link></li>
               <li><Link to="/articles" className="hover:text-slate-900 transition-colors">{t.footer.articles}</Link></li>
               <li><Link to="/about" className="hover:text-slate-900 transition-colors">{t.footer.about}</Link></li>
-              <li><a href="#" className="hover:text-slate-900 transition-colors">{t.footer.letter}</a></li>
+              <li><Link to="/letter" className="hover:text-slate-900 transition-colors">{t.footer.letter}</Link></li>
             </ul>
           </div>
           <div>
