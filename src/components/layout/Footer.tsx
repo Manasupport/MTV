@@ -19,9 +19,14 @@ export default function Footer({ language }: FooterProps) {
                 className="h-10"
               />
             </Link>
-            <p className="text-sm text-slate-600 leading-relaxed">
+            <p className="text-sm text-slate-600 leading-relaxed mb-6">
               {t.footer.tagline}
             </p>
+            <img
+              src="/ccfi-escp.png"
+              alt="CCFI ESCP"
+              className="h-8 opacity-70 hover:opacity-100 transition-opacity"
+            />
           </div>
           <div>
             <h4 className="font-bold text-xs uppercase tracking-widest text-slate-400 mb-6">
