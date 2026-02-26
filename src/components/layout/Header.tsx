@@ -4,24 +4,28 @@ import { Language, copy } from '../../lib/i18n'
 
 const TOPICS = [
   {
-    label: 'Biotech',
-    subtopics: ['Gene therapy', 'CRISPR', 'Biologics'],
+    label: 'Santé & Pharma',
+    subtopics: ['Médicaments', 'Essais cliniques', 'Pharmatech'],
   },
   {
-    label: 'Research',
-    subtopics: ['Clinical trials', 'Universities', 'Institutes'],
+    label: 'Recherche & Health Tech',
+    subtopics: ['Université', 'Médtech', 'Digital Health'],
   },
   {
-    label: 'MedTech',
-    subtopics: ['Devices', 'Diagnostics', 'Digital Health'],
+    label: 'IA & Data',
+    subtopics: ['Machine learning', 'Data analytics', 'Algorithmes médicaux'],
   },
   {
-    label: 'Surgery',
-    subtopics: ['Robotics', 'Minimally invasive', 'AI-guided'],
+    label: 'Médecine d\'urgence',
+    subtopics: ['Trauma', 'Urgentologie', 'Réanimation'],
   },
   {
-    label: 'Oncology',
-    subtopics: ['Immunotherapy', 'Precision medicine', 'Drug development'],
+    label: 'Médecine & Tradition Juive',
+    subtopics: ['Éthique médicale', 'Torah & Science', 'Pratiques'],
+  },
+  {
+    label: 'Événements',
+    subtopics: ['Conférences', 'Webinaires', 'Workshops'],
   },
 ]
 
@@ -68,14 +72,13 @@ export default function Header({ language, setLanguage }: HeaderProps) {
         {/* LEFT: LOGO */}
         <Link
           to="/"
-          className="flex-shrink-0 flex flex-col items-start -space-y-0.5 hover:opacity-70 transition-opacity"
+          className="flex-shrink-0 flex items-start hover:opacity-80 transition-opacity"
         >
-          <span className="text-xs font-black tracking-widest uppercase text-slate-900">
-            MedTechValley
-          </span>
-          <span className="text-[10px] font-light tracking-widest text-slate-500 uppercase">
-            Editorial
-          </span>
+          <img
+            src="/logo-fond-clair.png"
+            alt="MedTechValley"
+            className="h-12"
+          />
         </Link>
 
         {/* CENTER: PRIMARY NAV (hidden on mobile) */}

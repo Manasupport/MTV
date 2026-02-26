@@ -8,12 +8,16 @@ interface FooterProps {
 export default function Footer({ language: _language }: FooterProps) {
   return (
     <footer className="bg-white border-t border-slate-200/30 mt-32">
-      <div className="max-w-7xl mx-auto px-8 py-16">
+      <div className="max-w-[1280px] mx-auto px-6 lg:px-8 py-16">
         <div className="grid md:grid-cols-4 gap-16 mb-16">
           <div className="md:col-span-1">
-            <h3 className="font-black text-sm uppercase tracking-widest mb-3 text-slate-900">
-              MedTechValley
-            </h3>
+            <Link to="/" className="inline-block hover:opacity-80 transition-opacity mb-4">
+              <img
+                src="/logo-fond-clair.png"
+                alt="MedTechValley"
+                className="h-10"
+              />
+            </Link>
             <p className="text-sm text-slate-600 leading-relaxed">
               Strategic insights on medical innovation and technology leadership.
             </p>

@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom'
 import { Language, copy } from '../lib/i18n'
 
 const TOPICS_CATEGORIES = [
-  { name: 'Biotech', color: 'from-blue-50 to-blue-100/50' },
-  { name: 'Research', color: 'from-purple-50 to-purple-100/50' },
-  { name: 'MedTech', color: 'from-green-50 to-green-100/50' },
-  { name: 'Surgery', color: 'from-orange-50 to-orange-100/50' },
-  { name: 'Oncology', color: 'from-red-50 to-red-100/50' },
-  { name: 'Cardiology', color: 'from-pink-50 to-pink-100/50' },
+  { name: 'Santé & Pharma', color: 'from-blue-50 to-blue-100/50' },
+  { name: 'Recherche & Health Tech', color: 'from-purple-50 to-purple-100/50' },
+  { name: 'IA & Data', color: 'from-green-50 to-green-100/50' },
+  { name: 'Médecine d\'urgence', color: 'from-orange-50 to-orange-100/50' },
+  { name: 'Médecine & Tradition Juive', color: 'from-red-50 to-red-100/50' },
+  { name: 'Événements', color: 'from-pink-50 to-pink-100/50' },
 ]
 
 interface HomeProps {
