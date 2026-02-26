@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
 import Container from '../components/layout/Container'
 import ArticleCard from '../components/ArticleCard'
 import { getArticles } from '../content/articles'
@@ -40,14 +41,13 @@ export default function Articles({ language }: ArticlesProps) {
             </p>
             </div>
             <div className="flex items-start justify-start lg:justify-end">
-              <button
-                type="button"
-                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              <Link
+                to="/"
                 className="inline-flex items-center gap-2 px-4 py-2 text-xs font-bold uppercase tracking-widest text-slate-700 border border-slate-200 rounded-full hover:border-slate-400 hover:text-slate-900 transition-colors"
               >
-                <span>↑</span>
-                {t.articlesPage.backToTop}
-              </button>
+                <span>←</span>
+                {t.articlesPage.backHome}
+              </Link>
             </div>
           </div>
           <div className="mt-12 flex flex-wrap items-center gap-3">

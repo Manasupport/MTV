@@ -71,7 +71,7 @@
     "title": "Tous les articles",
     "intro": "Couverture complète de l'innovation médicale, des technologies de santé et de la recherche biomédicale.",
     "empty": "Aucun article disponible pour le moment.",
-    "backToTop": "Retour en haut",
+    "backHome": "Retour",
     "filters": {
       "label": "Filtrer par domaine",
       "all": "Tous"
