@@ -70,7 +70,12 @@
     "kicker": "Editorial",
     "title": "All articles",
     "intro": "Comprehensive coverage of medical innovation, healthcare technology, and biomedical research leadership.",
-    "empty": "No articles available yet."
+    "empty": "No articles available yet.",
+    "backToTop": "Back to top",
+    "filters": {
+      "label": "Filter by domain",
+      "all": "All"
+    }
   },
   "notFound": {
     "title": "Page not found",
