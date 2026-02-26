@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "slug": "technion-ai-remission",
+    "title": "AI that predicts remissions: a Technion exclusive",
+    "excerpt": "A unique collaboration between Technion and Rambam Medical Center. A new AI identifies early remission biomarkers and personalizes oncology treatments from the first weeks.",
+    "date": "Jan 16, 2026",
+    "theme": "AI & Data",
+    "image": "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80&w=800",
+    "readTime": 5
+  },
+  {
+    "id": 2,
+    "slug": "chirurgie-robotique-5g",
+    "title": "Robotic Surgery: Sheba Hospital pioneers 5G",
+    "excerpt": "Sheba Hospital deploys the first 5G-connected operating room for ultra-precise robotic surgery. Reduced latency enables remote-guided procedures by top specialists.",
+    "date": "Jan 15, 2026",
+    "theme": "Research & Health Tech",
+    "image": "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=800",
+    "readTime": 6
+  },
+  {
+    "id": 3,
+    "slug": "neurosciences-alzheimer",
+    "title": "Neuroscience: a breakthrough in Alzheimer's diagnosis",
+    "excerpt": "Researchers at the Weizmann Institute develop a revolutionary biomarker capable of detecting the disease 15 years before symptoms. A major shift for preventive medicine.",
+    "date": "Jan 14, 2026",
+    "theme": "Research & Health Tech",
+    "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=800",
+    "readTime": 7
+  }
+]

@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "topics": "Thèmes",
+    "articles": "Articles",
+    "letter": "Business Letter",
+    "about": "À propos",
+    "subscribe": "S'abonner"
+  },
+  "hero": {
+    "kicker": "Intelligence Stratégique",
+    "title": "L'innovation médicale intelligente pour les leaders.",
+    "body": "Analyses stratégiques, recherches approfondies et couverture exclusive de l'innovation technologique médicale, de la recherche biomédicale et des dispositifs médicaux façonnant l'avenir de la médecine.",
+    "exploreCta": "Explorer les articles",
+    "imageAlt": "Innovation médicale"
+  },
+  "sections": {
+    "featuredStory": "Histoire en vedette",
+    "exploreTopics": "Explorer les thèmes",
+    "latestInsights": "Derniers insights",
+    "viewAll": "Voir tous les articles",
+    "weeklyLetter": "Lettre hebdomadaire",
+    "strategyInbox": "Stratégie livrée à votre boîte mail.",
+    "letterDesc": "Abonnez-vous à notre lettre d'affaires hebdomadaire pour une analyse stratégique, des insights d'investissement et une intelligence de marché sur la technologie médicale et l'innovation.",
+    "noSpam": "Pas de spam. Désinscrivez-vous à tout moment.",
+    "readFullStory": "Lire l'histoire complète"
+  },
+  "home": {
+    "topicsIntro": "Plongez dans les catégories spécialisées qui façonnent la médecine et la technologie.",
+    "topicMeta": "Dernières analyses et insights",
+    "topicCta": "Explorer",
+    "latestIntro": "Analyses récentes, mises à jour de recherche et percées en innovation.",
+    "emailPlaceholder": "votre@email.com",
+    "privacyPolicy": "politique de confidentialité"
+  },
+  "topicsCategories": [
+    { "name": "Santé & Pharma" },
+    { "name": "Recherche & Health Tech" },
+    { "name": "IA & Data" },
+    { "name": "Médecine d'urgence" },
+    { "name": "Médecine & Tradition Juive" },
+    { "name": "Événements" }
+  ],
+  "topicsMenu": [
+    {
+      "label": "Santé & Pharma",
+      "subtopics": ["Médicaments", "Essais cliniques", "Pharmatech"]
+    },
+    {
+      "label": "Recherche & Health Tech",
+      "subtopics": ["Université", "Médtech", "Digital Health"]
+    },
+    {
+      "label": "IA & Data",
+      "subtopics": ["Machine learning", "Data analytics", "Algorithmes médicaux"]
+    },
+    {
+      "label": "Médecine d'urgence",
+      "subtopics": ["Trauma", "Urgentologie", "Réanimation"]
+    },
+    {
+      "label": "Médecine & Tradition Juive",
+      "subtopics": ["Éthique médicale", "Torah & Science", "Pratiques"]
+    },
+    {
+      "label": "Événements",
+      "subtopics": ["Conférences", "Webinaires", "Workshops"]
+    }
+  ],
+  "articlesPage": {
+    "kicker": "Éditorial",
+    "title": "Tous les articles",
+    "intro": "Couverture complète de l'innovation médicale, des technologies de santé et de la recherche biomédicale.",
+    "empty": "Aucun article disponible pour le moment."
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "body": "Désolé, la page que vous cherchez n'existe pas ou a été déplacée.",
+    "cta": "Retour à l'accueil"
+  },
+  "footer": {
+    "tagline": "Analyses stratégiques sur l'innovation médicale et le leadership technologique.",
+    "navigate": "Navigation",
+    "home": "Accueil",
+    "articles": "Articles",
+    "about": "À propos",
+    "letter": "Lettre",
+    "legal": "Légal",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "connect": "Réseaux",
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn",
+    "copyright": "© 2026 MedTechValley. Tous droits réservés."
+  },
+  "articleCard": {
+    "minRead": "min de lecture",
+    "min": "min"
+  },
+  "about": {
+    "missionLabel": "Notre Mission",
+    "headlineLine1": "L'innovation.",
+    "headlineLine2": "Observée.",
+    "missionText": "Depuis 2006, Medtechvalley.com met en lumière l'innovation israélienne. Forts de cette expertise, nous lançons un spin-off dédié à la santé et aux technologies médicales. Ce nouveau site explore les avancées clés en santé, biotech et bien-être, issues de l'écosystème israélien.",
+    "yearsCount": "+20",
+    "yearsLabel": "Ans d'expertise",
+    "storyLabel": "Notre Histoire",
+    "storyHeadline": "De la couverture à l'intelligence.",
+    "timeline2006Title": "2006",
+    "timeline2006Body": "Medtechvalley.com est fondé pour couvrir l'innovation israélienne en technologie médicale et santé. Pendant deux décennies, nous servons de pont entre les innovateurs israéliens et le marché mondial.",
+    "timelineNowTitle": "Aujourd'hui",
+    "timelineNowBody": "Nous lançons une plateforme dédiée exclusivement à l'innovation médicale, aux technologies de santé et aux percées biotech. Cette évolution reflète notre engagement à fournir une intelligence stratégique aux leaders, investisseurs et innovateurs.",
+    "timelineTomorrowTitle": "Demain",
+    "timelineTomorrowBody": "Façonnons ensemble l'avenir de l'innovation santé.",
+    "valuesLabel": "Nos Valeurs",
+    "valuesHeadline": "Construits sur quatre piliers.",
+    "pillars": [
+      {
+        "title": "Intelligence",
+        "desc": "Analyse rigoureuse et impartiale de l'innovation médicale"
+      },
+      {
+        "title": "Clarté",
+        "desc": "Les technologies complexes expliquées avec précision"
+      },
+      {
+        "title": "Fiabilité",
+        "desc": "Sources vérifiées et intégrité éditoriale"
+      },
+      {
+        "title": "Vision",
+        "desc": "Comprendre l'innovation qui façonne la médecine de demain"
+      }
+    ],
+    "visionHeadline": "L'avenir de la santé s'écrit aujourd'hui.",
+    "visionBody": "Startups, chercheurs, innovations : nous vous offrons une veille claire, fiable et à jour. Plongez avec nous au cœur de l'innovation qui façonne la santé de demain.",
+    "ctaPrimary": "Explorer les articles",
+    "ctaSecondary": "Suivre notre intelligence",
+    "contactHeadline": "Nous contacter",
+    "contactBody": "Des questions, opportunités de partenariat, ou suggestions d'articles ?"
+  }
+}

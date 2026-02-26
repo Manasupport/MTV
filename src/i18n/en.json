@@ -1,0 +1,141 @@
+{
+  "nav": {
+    "topics": "Topics",
+    "articles": "Articles",
+    "letter": "Business Letter",
+    "about": "About",
+    "subscribe": "Subscribe"
+  },
+  "hero": {
+    "kicker": "Strategic Intelligence",
+    "title": "Medical innovation intelligence for leaders.",
+    "body": "Strategic analysis, in-depth research, and exclusive coverage of medical technology innovation, biomedical research, and medical devices shaping the future of medicine.",
+    "exploreCta": "Explore articles",
+    "imageAlt": "Medical innovation"
+  },
+  "sections": {
+    "featuredStory": "Featured story",
+    "exploreTopics": "Explore topics",
+    "latestInsights": "Latest insights",
+    "viewAll": "View all articles",
+    "weeklyLetter": "Weekly letter",
+    "strategyInbox": "Strategy delivered to your inbox.",
+    "letterDesc": "Subscribe to our weekly business letter for strategic analysis, investment insights, and market intelligence on medical technology and innovation.",
+    "noSpam": "No spam. Unsubscribe anytime.",
+    "readFullStory": "Read full story"
+  },
+  "home": {
+    "topicsIntro": "Deep dive into specialized innovation categories shaping medicine and technology.",
+    "topicMeta": "Latest coverage and insights",
+    "topicCta": "Explore",
+    "latestIntro": "Recent analysis, research updates, and innovation breakthroughs.",
+    "emailPlaceholder": "your@email.com",
+    "privacyPolicy": "privacy policy"
+  },
+  "topicsCategories": [
+    { "name": "Health & Pharma" },
+    { "name": "Research & Health Tech" },
+    { "name": "AI & Data" },
+    { "name": "Emergency Medicine" },
+    { "name": "Medicine & Jewish Tradition" },
+    { "name": "Events" }
+  ],
+  "topicsMenu": [
+    {
+      "label": "Health & Pharma",
+      "subtopics": ["Medicines", "Clinical trials", "Pharmatech"]
+    },
+    {
+      "label": "Research & Health Tech",
+      "subtopics": ["Universities", "Medtech", "Digital Health"]
+    },
+    {
+      "label": "AI & Data",
+      "subtopics": ["Machine learning", "Data analytics", "Medical algorithms"]
+    },
+    {
+      "label": "Emergency Medicine",
+      "subtopics": ["Trauma", "Emergency care", "Critical care"]
+    },
+    {
+      "label": "Medicine & Jewish Tradition",
+      "subtopics": ["Medical ethics", "Torah & Science", "Practices"]
+    },
+    {
+      "label": "Events",
+      "subtopics": ["Conferences", "Webinars", "Workshops"]
+    }
+  ],
+  "articlesPage": {
+    "kicker": "Editorial",
+    "title": "All articles",
+    "intro": "Comprehensive coverage of medical innovation, healthcare technology, and biomedical research leadership.",
+    "empty": "No articles available yet."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "Sorry, the page you're looking for doesn't exist or has been moved.",
+    "cta": "Back to home"
+  },
+  "footer": {
+    "tagline": "Strategic insights on medical innovation and technology leadership.",
+    "navigate": "Navigate",
+    "home": "Home",
+    "articles": "Articles",
+    "about": "About",
+    "letter": "Letter",
+    "legal": "Legal",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "connect": "Connect",
+    "twitter": "Twitter",
+    "linkedin": "LinkedIn",
+    "copyright": "© 2026 MedTechValley. All rights reserved."
+  },
+  "articleCard": {
+    "minRead": "min read",
+    "min": "min"
+  },
+  "about": {
+    "missionLabel": "Our Mission",
+    "headlineLine1": "Innovation.",
+    "headlineLine2": "Witnessed.",
+    "missionText": "Since 2006, Medtechvalley.com has illuminated Israeli innovation. Building on this expertise, we launch a dedicated spin-off focused on health and medical technologies. This new site explores key advances in health, biotech and wellness emerging from the Israeli ecosystem.",
+    "yearsCount": "+20",
+    "yearsLabel": "Years of Expertise",
+    "storyLabel": "Our Story",
+    "storyHeadline": "From coverage to intelligence.",
+    "timeline2006Title": "2006",
+    "timeline2006Body": "Medtechvalley.com is founded to cover Israeli innovation in medical technology and healthcare. For two decades, we serve as a bridge between Israeli innovators and the global market.",
+    "timelineNowTitle": "Today",
+    "timelineNowBody": "We launch a dedicated platform exclusively focused on medical innovation, health technology, and biotech breakthroughs. This evolution reflects our commitment to providing strategic intelligence to leaders, investors, and innovators.",
+    "timelineTomorrowTitle": "Tomorrow",
+    "timelineTomorrowBody": "Shaping the future of health innovation together.",
+    "valuesLabel": "Our Values",
+    "valuesHeadline": "Built on four pillars.",
+    "pillars": [
+      {
+        "title": "Intelligence",
+        "desc": "Rigorous, impartial analysis of medical innovation"
+      },
+      {
+        "title": "Clarity",
+        "desc": "Complex technologies explained with precision"
+      },
+      {
+        "title": "Reliability",
+        "desc": "Verified sources and editorial integrity"
+      },
+      {
+        "title": "Vision",
+        "desc": "Understanding innovation that shapes tomorrow's healthcare"
+      }
+    ],
+    "visionHeadline": "The future of healthcare is being written today.",
+    "visionBody": "Startups, researchers, innovations: we offer you clear, reliable and up-to-date market intelligence. Dive with us into the heart of innovation shaping tomorrow's health.",
+    "ctaPrimary": "Explore Articles",
+    "ctaSecondary": "Follow Our Intelligence",
+    "contactHeadline": "Get in touch",
+    "contactBody": "Questions, partnership opportunities, or story suggestions?"
+  }
+}

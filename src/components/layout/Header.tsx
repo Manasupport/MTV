@@ -2,33 +2,6 @@ import { Link } from 'react-router-dom'
 import { useState, useEffect, useRef } from 'react'
 import { Language, copy } from '../../lib/i18n'
 
-const TOPICS = [
-  {
-    label: 'Santé & Pharma',
-    subtopics: ['Médicaments', 'Essais cliniques', 'Pharmatech'],
-  },
-  {
-    label: 'Recherche & Health Tech',
-    subtopics: ['Université', 'Médtech', 'Digital Health'],
-  },
-  {
-    label: 'IA & Data',
-    subtopics: ['Machine learning', 'Data analytics', 'Algorithmes médicaux'],
-  },
-  {
-    label: 'Médecine d\'urgence',
-    subtopics: ['Trauma', 'Urgentologie', 'Réanimation'],
-  },
-  {
-    label: 'Médecine & Tradition Juive',
-    subtopics: ['Éthique médicale', 'Torah & Science', 'Pratiques'],
-  },
-  {
-    label: 'Événements',
-    subtopics: ['Conférences', 'Webinaires', 'Workshops'],
-  },
-]
-
 interface HeaderProps {
   language: Language
   setLanguage: (lang: Language) => void
@@ -40,6 +13,7 @@ export default function Header({ language, setLanguage }: HeaderProps) {
   const dropdownRef = useRef<HTMLDivElement>(null)
   const triggerRef = useRef<HTMLButtonElement>(null)
   const t = copy[language]
+  const topics = t.topicsMenu
 
   // Close dropdown on ESC
   useEffect(() => {
@@ -90,7 +64,7 @@ export default function Header({ language, setLanguage }: HeaderProps) {
               onClick={() => setIsTopicsOpen(!isTopicsOpen)}
               className="group flex items-center gap-1.5 py-2 px-2 text-slate-600 hover:text-slate-900 transition-colors focus:outline-none relative"
             >
-              {t.topics}
+              {t.nav.topics}
               <svg
                 className={`w-3.5 h-3.5 transition-transform duration-200 ${
                   isTopicsOpen ? 'rotate-180' : ''
@@ -117,7 +91,7 @@ export default function Header({ language, setLanguage }: HeaderProps) {
                 className="dropdown-enter absolute top-full left-1/2 -translate-x-1/2 mt-3 w-max bg-white border border-slate-200/50 rounded-xl shadow-xl p-6 backdrop-blur-sm"
               >
                 <div className="grid grid-cols-2 gap-8">
-                  {TOPICS.map((topic) => (
+                  {topics.map((topic) => (
                     <div key={topic.label}>
                       <h3 className="text-xs font-bold text-slate-900 mb-3 uppercase tracking-widest">
                         {topic.label}
@@ -145,7 +119,7 @@ export default function Header({ language, setLanguage }: HeaderProps) {
             to="/articles"
             className="group flex items-center gap-1.5 py-2 px-2 text-slate-600 hover:text-slate-900 transition-colors relative"
           >
-            {t.articles}
+            {t.nav.articles}
             <span className="absolute bottom-1 left-2 right-2 h-0.5 bg-slate-900 scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
           </Link>
 
@@ -153,7 +127,7 @@ export default function Header({ language, setLanguage }: HeaderProps) {
             href="#"
             className="group flex items-center gap-1.5 py-2 px-2 text-slate-600 hover:text-slate-900 transition-colors relative"
           >
-            {t.letter}
+            {t.nav.letter}
             <span className="absolute bottom-1 left-2 right-2 h-0.5 bg-slate-900 scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
           </a>
 
@@ -161,7 +135,7 @@ export default function Header({ language, setLanguage }: HeaderProps) {
             to="/about"
             className="group flex items-center gap-1.5 py-2 px-2 text-slate-600 hover:text-slate-900 transition-colors relative"
           >
-            {t.about}
+            {t.nav.about}
             <span className="absolute bottom-1 left-2 right-2 h-0.5 bg-slate-900 scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-300"></span>
           </Link>
         </nav>
@@ -194,7 +168,7 @@ export default function Header({ language, setLanguage }: HeaderProps) {
 
           {/* Subscribe CTA */}
           <button className="hidden sm:inline-flex px-4 py-2 bg-slate-900 text-white text-xs font-bold uppercase tracking-wide rounded-lg hover:bg-slate-800 transition-all hover:shadow-md">
-            {t.subscribe}
+            {t.nav.subscribe}
           </button>
 
           {/* Mobile Menu Toggle */}
@@ -214,16 +188,16 @@ export default function Header({ language, setLanguage }: HeaderProps) {
         <div className="md:hidden border-t border-slate-200/30 bg-white/90 backdrop-blur-sm animate-fadeIn">
           <div className="max-w-[1280px] mx-auto px-6 py-4 space-y-3">
             <button className="w-full text-left px-4 py-2 text-sm font-medium text-slate-900 hover:bg-slate-100 rounded transition-colors">
-              {t.topics}
+              {t.nav.topics}
             </button>
             <Link to="/articles" className="block px-4 py-2 text-sm font-medium text-slate-900 hover:bg-slate-100 rounded transition-colors">
-              {t.articles}
+              {t.nav.articles}
             </Link>
             <a href="#" className="block px-4 py-2 text-sm font-medium text-slate-900 hover:bg-slate-100 rounded transition-colors">
-              {t.letter}
+              {t.nav.letter}
             </a>
             <Link to="/about" className="block px-4 py-2 text-sm font-medium text-slate-900 hover:bg-slate-100 rounded transition-colors">
-              {t.about}
+              {t.nav.about}
             </Link>
             <div className="border-t border-slate-200/30 pt-3 mt-3 flex items-center gap-2 px-2">
               <button

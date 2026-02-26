@@ -1,34 +1,11 @@
+import frArticles from './articles.fr.json'
+import enArticles from './articles.en.json'
 import { Article } from '../components/ArticleCard'
+import { Language } from '../lib/i18n'
 
-export const articles: Article[] = [
-  {
-    id: 1,
-    slug: 'technion-ai-remission',
-    title: 'L\'IA qui prédit les rémissions : une exclusivité du Technion',
-    excerpt: 'Collaboration inédite entre le Technion et le centre hospitalier Rambam. Une nouvelle IA permet d\'identifier les biomarqueurs de rémission précoce et personnaliser les traitements oncologiques dès les premières semaines.',
-    date: '16 Jan 2026',
-    theme: 'IA & Data',
-    image: 'https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80&w=800',
-    readTime: 5,
-  },
-  {
-    id: 2,
-    slug: 'chirurgie-robotique-5g',
-    title: 'Chirurgie Robotique : L\'Hôpital Sheba Pionnier de la 5G',
-    excerpt: 'L\'Hôpital Sheba déploie la première salle d\'opération connectée en 5G pour la chirurgie robotique ultra-précise. Une détente de la latence permet des opérations guidées à distance par les meilleurs spécialistes.',
-    date: '15 Jan 2026',
-    theme: 'Recherche & Health Tech',
-    image: 'https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=800',
-    readTime: 6,
-  },
-  {
-    id: 3,
-    slug: 'neurosciences-alzheimer',
-    title: 'Neurosciences : Une percée dans le diagnostic d\'Alzheimer',
-    excerpt: 'Des chercheurs de l\'Institut Weizmann développent un biomarqueur révolutionnaire capable de détecter la maladie 15 ans avant les premiers symptômes. Un tournant majeur pour la médecine préventive.',
-    date: '14 Jan 2026',
-    theme: 'Recherche & Health Tech',
-    image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&q=80&w=800',
-    readTime: 7,
-  },
-]
+const articlesByLanguage: Record<Language, Article[]> = {
+  fr: frArticles as Article[],
+  en: enArticles as Article[],
+}
+
+export const getArticles = (language: Language) => articlesByLanguage[language]

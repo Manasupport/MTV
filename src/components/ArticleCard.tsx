@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { Language, copy } from '../lib/i18n'
 
 export interface Article {
   id: number
@@ -13,10 +14,12 @@ export interface Article {
 
 interface ArticleCardProps {
   article: Article
+  language: Language
   variant?: 'minimal' | 'featured'
 }
 
-export default function ArticleCard({ article, variant = 'minimal' }: ArticleCardProps) {
+export default function ArticleCard({ article, language, variant = 'minimal' }: ArticleCardProps) {
+  const t = copy[language]
   if (variant === 'featured') {
     return (
       <div className="group">
@@ -34,7 +37,7 @@ export default function ArticleCard({ article, variant = 'minimal' }: ArticleCar
             <div className="flex items-center gap-6 text-sm text-slate-500 font-light">
               <span>{article.date}</span>
               <span>•</span>
-              <span>{article.readTime} min read</span>
+              <span>{article.readTime} {t.articleCard.minRead}</span>
             </div>
           </div>
           <div className="relative h-96 lg:h-full min-h-96 overflow-hidden rounded-lg">
@@ -65,7 +68,7 @@ export default function ArticleCard({ article, variant = 'minimal' }: ArticleCar
           <div className="flex items-center gap-4 text-sm text-slate-500 font-light">
             <span>{article.date}</span>
             <span>•</span>
-            <span>{article.readTime} min</span>
+            <span>{article.readTime} {t.articleCard.min}</span>
           </div>
         </div>
         <div className="h-48 lg:h-auto overflow-hidden rounded-lg bg-slate-100">
