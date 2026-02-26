@@ -1,2 +1,2 @@
-# MedTechValley
-Repository for MTV website development.
+# MedTechValley (MTV)
+Website repository.
